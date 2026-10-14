@@ -5,7 +5,7 @@ VALUES
 ("anagha", "23", "physics", "65"),
 ("amritha", "22", "ece", "90");
 SELECT * FROM students
-WHERE age > 20;
+WHERE age> 20;
 SELECT * FROM students
 WHERE department = 'cse'
 OR department = 'Physics';
