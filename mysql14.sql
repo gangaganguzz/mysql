@@ -1,6 +1,6 @@
 CREATE DATABASE GroceryShop;
 USE GroceryShop;
-CREATE TABLE products (
+CREATE TABLE productss (
     product_id INT PRIMARY KEY,
     product_name VARCHAR(100),
     price DECIMAL(10,2)
