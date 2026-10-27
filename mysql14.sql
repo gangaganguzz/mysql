@@ -6,9 +6,9 @@ CREATE TABLE productss (
     price DECIMAL(10,2)
 );
 
-ALTER TABLE products
+ALTER TABLE productss
 ADD category VARCHAR(100);
 
-TRUNCATE TABLE products;
+TRUNCATE TABLE productss;
 
 DROP DATABASE GroceryShop;
